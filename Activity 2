@@ -1,0 +1,5 @@
+print("Welcoome to the contest!!")
+print (4)
+print ("Welcome" ,2, "the contest \n")
+print ("hello", 4)
+print (end="byee!!")
