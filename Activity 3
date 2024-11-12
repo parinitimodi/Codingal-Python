@@ -5,5 +5,4 @@ print (y)
 codingal = "codingal"
 print (codingal, "\n")
 name = input ("Enter your name")
-print ("HELLO!!", name) 
-
+print ("HELLO!!",
