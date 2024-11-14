@@ -1,0 +1,3 @@
+import math 
+Number = 49
+print(math.sqrt(Number))
