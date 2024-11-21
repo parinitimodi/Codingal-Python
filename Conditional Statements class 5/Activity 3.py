@@ -1,0 +1,5 @@
+x = int(input("Enter a number"))
+if (x>15):print ("The number is greater than 15!!")
+elif (x == 15) : print ("The number is equal to 15!!")
+else:print ("The number is lesser than 15!!")
+print (x)
