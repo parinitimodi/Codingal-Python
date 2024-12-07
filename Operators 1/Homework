@@ -1,3 +1,6 @@
 import math 
 Number = 49
 print(math.sqrt(Number))
+import math
+number = int(input("Enter user input"))
+print(math.sqrt(number))
