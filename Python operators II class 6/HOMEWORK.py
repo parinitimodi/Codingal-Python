@@ -1,6 +1,5 @@
-print ("I WANT TO CHECK IF THIS USER IS FILLED WITH LETTERS OR NUMBERS!!")
-if ord(str (input("ENTER A CHARACTER"))):
-    print("ITS AN ALPHABET!!")
+x = input("ENTER USER INPUT:")
+if x.isalpha():
+    print(x,"is a letter!!")
 else:
-    print("ITS NOT AN ALPHABET")
-
+    print(x,"is not a letter!!")
