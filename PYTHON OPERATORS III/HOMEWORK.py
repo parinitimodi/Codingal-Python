@@ -1,8 +1,7 @@
-a = (input("ENTER KEYBOARD INPUT!!"))
-if ( a is str):
-    print("ITS A LETTER!!")
-else:
-    print("ITS NOT A LETTER!!")
+x = input("ENTER USER INPUT:")
+
+print("THE ASCII VALUE OF", x ,"is", ord(x))
+
 
    
 
