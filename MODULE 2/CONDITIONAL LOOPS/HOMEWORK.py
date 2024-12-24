@@ -5,3 +5,5 @@ while(n>0):
     x = str(y) + x
     n = n//2
 print(int(x))
+
+
