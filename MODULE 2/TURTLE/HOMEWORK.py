@@ -13,13 +13,12 @@ side_length = 200
 
 angle = 360.0/num_sides
 
+mypen.circle
+
 for i in range(num_sides):
     mypen.forward(side_length)
     mypen.right(angle)
-    mypen
-   
- 
-turtle.circle(100)
-
+    
+    
 
 
