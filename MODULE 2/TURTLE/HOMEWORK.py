@@ -18,7 +18,12 @@ mypen.circle
 for i in range(num_sides):
     mypen.forward(side_length)
     mypen.right(angle)
-    
+mypen.up()
+mypen.goto(100,-200)
+
+mypen.circle(100)
+mypen.down()
+mypen.circle(100)
     
 
 
