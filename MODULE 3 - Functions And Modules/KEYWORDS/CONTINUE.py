@@ -6,7 +6,6 @@ while var>0:
     if var == 5:
         continue
 
-    print ("\n Current Variable Value: ",var)
-
+    print (f"\n Current Variable Value:{var} ")
 print("\n Good Bye!!")
 
