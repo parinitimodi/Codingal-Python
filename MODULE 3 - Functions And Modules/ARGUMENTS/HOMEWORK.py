@@ -6,7 +6,7 @@ if (answer == "yes"):
     os.system("shutdown /s /t 1")
 
 else:
-    print("Okay, we wont ")
+    print("Okay, we wont shutdow your system  ")
 
 
 
