@@ -1,8 +1,13 @@
 try:
-    age = int(input("ENTER A NUMBER: "))
+    age = input("ENTER A NUMBER: ")
 
 
     print ("AGE = ",age)
+
+    if (age>0 and age<=100):
+        print ("The age entered is correct")
+    else:
+        print("!There is some mistake in the age entered as this age is not valid!")
 
 except ZeroDivisionError:
     print("YOU CANT BE 0 YEARS OLD")
