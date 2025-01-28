@@ -1,4 +1,3 @@
-
 x = int(input("Please enter bill amount "))
 y = int(input("Please enter the amount you paid "))
 def calculate(x,y):
@@ -10,5 +9,6 @@ def calculate(x,y):
     
     else:
         return("There is no amount left to pay")
+calculate()
     
 
