@@ -37,90 +37,90 @@ if theBoard[move] == ' ':
 else:
 
     print("That place is already filled.\nMove to which place?")
-
-continue
+    
+        continue
 
 # Now we will check if player X or O has won,for every move after 5 moves.
 
 if count >= 5:
 
-if theBoard['7'] == theBoard['8'] == theBoard['9'] != ' ': # across the top
+    if theBoard['7'] == theBoard['8'] == theBoard['9'] != ' ': # across the top
 
-printBoard(theBoard)
+        printBoard(theBoard)
 
-print("\nGame Over.\n")
+        print("\nGame Over.\n")
 
-print(" **** " +turn + " won. ****")
+        print(" **** " +turn + " won. ****")
 
-break
+    break
 
 elif theBoard['4'] == theBoard['5'] == theBoard['6'] != ' ': # across the middle
 
-printBoard(theBoard)
+    printBoard(theBoard)
 
-print("\nGame Over.\n")
+    print("\nGame Over.\n")
 
-print(" **** " +turn + " won. ****")
+    print(" **** " +turn + " won. ****")
 
-break
+    break
 
 elif theBoard['1'] == theBoard['2'] == theBoard['3'] != ' ': # across the bottom
 
-printBoard(theBoard)
+    printBoard(theBoard)
 
-print("\nGame Over.\n")
+    print("\nGame Over.\n")
 
-print(" **** " +turn + " won. ****")
+    print(" **** " +turn + " won. ****")
 
-break
+    break
 
 elif theBoard['1'] == theBoard['4'] == theBoard['7'] != ' ': # down the left side
 
-printBoard(theBoard)
+    printBoard(theBoard)
 
-print("\nGame Over.\n")
+    print("\nGame Over.\n")
 
-print(" **** " +turn + " won. ****")
+    print(" **** " +turn + " won. ****")
 
-break
+    break
 
 elif theBoard['2'] == theBoard['5'] == theBoard['8'] != ' ': # down the middle
 
-printBoard(theBoard)
+    printBoard(theBoard)
 
-print("\nGame Over.\n")
+    print("\nGame Over.\n")
 
-print(" **** " +turn + " won. ****")
+    print(" **** " +turn + " won. ****")
 
-break
+    break
 
 elif theBoard['3'] == theBoard['6'] == theBoard['9'] != ' ': # down the right side
 
-printBoard(theBoard)
+    printBoard(theBoard)
 
-print("\nGame Over.\n")
+    print("\nGame Over.\n")
 
-print(" **** " +turn + " won. ****")
+    print(" **** " +turn + " won. ****")
 
-break
+    break
 
 elif theBoard['7'] == theBoard['5'] == theBoard['3'] != ' ': # diagonal
 
-printBoard(theBoard)
+    printBoard(theBoard)
 
-print("\nGame Over.\n")
+    print("\nGame Over.\n")
 
-print(" **** " +turn + " won. ****")
+    print(" **** " +turn + " won. ****")
 
-break
+    break
 
 elif theBoard['1'] == theBoard['5'] == theBoard['9'] != ' ': # diagonal
 
-printBoard(theBoard)
+    printBoard(theBoard)
 
-print("\nGame Over.\n")
+    print("\nGame Over.\n")
 
-print(" **** " +turn + " won. ****")
+    print(" **** " +turn + " won. ****")
 
 break
 
@@ -128,33 +128,33 @@ break
 
 if count == 9:
 
-print("\nGame Over.\n")
+    print("\nGame Over.\n")
 
-print("It's a Tie!!")
+    print("It's a Tie!!")
 
 # Now we have to change the player after every move.
 
-if turn =='X':
+    if turn =='X':
 
-turn = 'O'
+        turn = 'O'
 
-else:
+    else:
 
-turn = 'X'
+        turn = 'X'
 
 
-# Now we will ask if player wants to restart the game or not.
+    # Now we will ask if player wants to restart the game or not.
 
 restart = input("Do want to play Again?(y/n)")
 
 if restart == "y" or restart == "Y":
 
-for key in board_keys:
+    for key in board_keys:
 
-theBoard[key] = " "
+        theBoard[key] = " "
 
 game()
 
 if __name__ == "__main__":
 
-game()
+    game()  
