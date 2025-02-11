@@ -1,6 +1,6 @@
-x = int(input("Please enter bill amount "))
-y = int(input("Please enter the amount you paid "))
-def calculate(x,y):
+def calculate(dueamount):
+    x = int(input("Please enter bill amount "))
+    y = int(input("Please enter the amount you paid "))
     if (y>x):
         return("Change =",{y - x})
     
@@ -9,6 +9,6 @@ def calculate(x,y):
     
     else:
         return("There is no amount left to pay")
-calculate()
+calculate(dueamount)
     
 

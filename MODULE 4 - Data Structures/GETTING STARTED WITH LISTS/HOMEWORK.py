@@ -5,3 +5,6 @@ odds = [n for n in a if n % 2 != 0]
 
 print(evens)  
 print(odds)
+
+res = [i * i for i in a if i % 2 != 0]
+print(res)

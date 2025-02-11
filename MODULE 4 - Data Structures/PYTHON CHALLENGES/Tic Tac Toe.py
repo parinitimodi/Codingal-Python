@@ -38,7 +38,7 @@ else:
 
     print("That place is already filled.\nMove to which place?")
     
-        continue
+        
 
 # Now we will check if player X or O has won,for every move after 5 moves.
 
@@ -52,7 +52,7 @@ if count >= 5:
 
         print(" **** " +turn + " won. ****")
 
-    break
+    
 
 elif theBoard['4'] == theBoard['5'] == theBoard['6'] != ' ': # across the middle
 
@@ -62,7 +62,7 @@ elif theBoard['4'] == theBoard['5'] == theBoard['6'] != ' ': # across the middle
 
     print(" **** " +turn + " won. ****")
 
-    break
+    
 
 elif theBoard['1'] == theBoard['2'] == theBoard['3'] != ' ': # across the bottom
 
@@ -72,7 +72,7 @@ elif theBoard['1'] == theBoard['2'] == theBoard['3'] != ' ': # across the bottom
 
     print(" **** " +turn + " won. ****")
 
-    break
+    
 
 elif theBoard['1'] == theBoard['4'] == theBoard['7'] != ' ': # down the left side
 
@@ -82,7 +82,7 @@ elif theBoard['1'] == theBoard['4'] == theBoard['7'] != ' ': # down the left sid
 
     print(" **** " +turn + " won. ****")
 
-    break
+    
 
 elif theBoard['2'] == theBoard['5'] == theBoard['8'] != ' ': # down the middle
 
@@ -92,7 +92,7 @@ elif theBoard['2'] == theBoard['5'] == theBoard['8'] != ' ': # down the middle
 
     print(" **** " +turn + " won. ****")
 
-    break
+    
 
 elif theBoard['3'] == theBoard['6'] == theBoard['9'] != ' ': # down the right side
 
@@ -102,7 +102,7 @@ elif theBoard['3'] == theBoard['6'] == theBoard['9'] != ' ': # down the right si
 
     print(" **** " +turn + " won. ****")
 
-    break
+    
 
 elif theBoard['7'] == theBoard['5'] == theBoard['3'] != ' ': # diagonal
 
@@ -112,7 +112,7 @@ elif theBoard['7'] == theBoard['5'] == theBoard['3'] != ' ': # diagonal
 
     print(" **** " +turn + " won. ****")
 
-    break
+    
 
 elif theBoard['1'] == theBoard['5'] == theBoard['9'] != ' ': # diagonal
 
@@ -122,7 +122,7 @@ elif theBoard['1'] == theBoard['5'] == theBoard['9'] != ' ': # diagonal
 
     print(" **** " +turn + " won. ****")
 
-break
+
 
 # If neither X nor O wins and the board is full, we'll declare the result as 'tie'.
 
