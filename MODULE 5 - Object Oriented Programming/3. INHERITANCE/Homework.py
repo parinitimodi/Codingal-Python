@@ -1,3 +1,4 @@
+
 class Vehicle:
     def __init__(self, name, mileage, capacity):
         self.name = name
