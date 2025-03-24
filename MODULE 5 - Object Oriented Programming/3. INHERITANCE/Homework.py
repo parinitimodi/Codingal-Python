@@ -10,6 +10,7 @@ class Vehicle:
 
 class Bus(Vehicle):
     pass
-
+ 
 School_bus = Bus("School Volvo", 12, 50)
 print("Total Bus fare is:", School_bus.fare())
+
