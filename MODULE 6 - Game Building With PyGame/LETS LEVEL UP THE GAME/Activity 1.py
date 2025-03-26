@@ -4,7 +4,8 @@ screenwidth,screenheight = 500,400
 speed = 6
 font = 78
 pygame.init()
-backgroundimage = pygame.transform.scale(pygame.image.load('siuuu.jpg'),(screenwidth,screenheight))
+ing = pygame.image.load("siuuu.jpg")
+backgroundimage = pygame.transform.scale(ing,(screenwidth,screenheight))
 font = pygame.font.SysFont("Harlow Solid Italic",font)
 class Sprite(pygame.sprite.Sprite):
     def __init__(self,color,height,width):
