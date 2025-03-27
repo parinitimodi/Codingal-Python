@@ -1,10 +1,25 @@
 import pygame
 pygame.init()
-screen = pygame.display.set_mode((400,500))
+white = (255, 255, 255)
+green = (0, 255, 0)
+blue = (0, 0, 128)
+X = 400
+Y = 400
+display_surface = pygame.display.set_mode((X, Y))
+pygame.display.set_caption('Show Text')
+font = pygame.font.Font('freesansbold.ttf', 32)
+text = font.render('GeeksForGeeks', True, green, blue) 
+textRect = text.get_rect()
+textRect.center = (X // 2, Y // 2)
 while True:
-    for event in pygame.event.get():
+    display_surface.fill(white)
+    display_surface.blit(text, textRect)
+    for event in pygame.event.get(): 
         if event.type == pygame.QUIT:
+
             pygame.quit()
+
+            quit()
+ 
     
-    pygame.draw.rect(screen,(0,0,255), pygame.Rect(30,30,60,60))
-    pygame.display.flip()
+        pygame.display.update()
