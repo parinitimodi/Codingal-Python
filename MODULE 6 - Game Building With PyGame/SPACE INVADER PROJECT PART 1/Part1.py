@@ -104,6 +104,6 @@ while running:
     elif bulletstate == "Fire":
         firebullet(bulletx,bullety)
         bullety -= bulletychange
-    player(playerx,playery)
+    player,(playerx,playery)
     showscore(textx,texty)
     pygame.display.update()
