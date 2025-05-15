@@ -107,3 +107,4 @@ while running:
     player,(playerx,playery)
     showscore(textx,texty)
     pygame.display.update()
+print("YAYYY WE DID IT!!")
